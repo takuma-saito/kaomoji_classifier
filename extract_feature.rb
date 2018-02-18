@@ -3,6 +3,7 @@ require 'json'
 docs = []
 freqs = {}
 categories = {}
+unicodes = {}
 while (line = $stdin.gets)&.chomp!
   n = line.split("$")
   ords = n[0].chars.map(&:ord).map(&:to_i)
@@ -19,9 +20,10 @@ while (line = $stdin.gets)&.chomp!
     t: n[1],
     t_id: categories[n[1]][:len],
     v: n[0],
-    feature: ords.each_with_object({}) {|c, memo|
-      memo[c] ||= 0
-      memo[c] += 1
+    vector: ords.each_with_object({}) {|c, memo|
+      unicodes[c] = unicodes.length if unicodes[c].nil?
+      memo[unicodes[c]] ||= 0
+      memo[unicodes[c]] += 1
     }
   }
 end
@@ -31,10 +33,12 @@ idf = freqs.map {|ord, count|
   [ord, Math.log(D / count.to_f)]
 }.to_h
 
+inv_unicodes = [unicodes.values, unicodes.keys].transpose.to_h
+
 items = docs.map do |d|
-  d[:feature] =
-    d[:feature].map {|ord, feature|
-    [ord, idf[ord] * feature.to_f]
+  d[:vector] =
+    d[:vector].map {|ord, feature|
+    [ord, idf[inv_unicodes[ord]] * feature.to_f]
   }.to_h
   d
 end
@@ -49,4 +53,8 @@ answers = categories.each_with_object({}) {|(key, value), memo|
 
 # pp answers.select {|_, ans| ans[:count] == 1}
 # pp answers.values.sort {|a, b| a[:count] <=> b[:count]}
-puts({answers: answers, items: items}.to_json)
+puts({
+       answers: answers,
+       features: inv_unicodes,
+       items: items,
+     }.to_json)
