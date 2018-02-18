@@ -5,7 +5,7 @@ freqs = {}
 categories = {}
 while (line = $stdin.gets)&.chomp!
   n = line.split("$")
-  ords = n[0].chars.map(&:ord)
+  ords = n[0].chars.map(&:ord).map(&:to_i)
   ords.each {|ord|
     freqs[ord] ||= 0
     freqs[ord] += 1
@@ -47,5 +47,6 @@ answers = categories.each_with_object({}) {|(key, value), memo|
   }
 }
 
-pp answers
-# puts({answers: answers, items: items}.to_json)
+# pp answers.select {|_, ans| ans[:count] == 1}
+# pp answers.values.sort {|a, b| a[:count] <=> b[:count]}
+puts({answers: answers, items: items}.to_json)
