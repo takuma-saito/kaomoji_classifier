@@ -5,17 +5,21 @@ categories = {}
 unicodes = {}
 while (line = $stdin.gets)&.chomp!
   n = line.split("$")
-  ords = n[0].chars.map(&:ord).map(&:to_i)
+  ords = n[0].chars
+           .map(&:ord)
+           .map(&:to_i)
+           .group_by {|x| x}
+           .map {|key, value| [key, value.count]}.to_h
   len = categories.length
   categories[n[1]] = {
     count: (categories[n[1]]&.[](:count) || 0) + 1,
     len: (categories[n[1]]&.[](:len) || len)
   }
   items << {
-    t: n[1],
-    t_id: categories[n[1]][:len],
-    v: n[0],
-    vector: ords
+    class_name: n[1],
+    class_id: categories[n[1]][:len],
+    feature_name: n[0],
+    feature_vector: ords
   }
 end
 

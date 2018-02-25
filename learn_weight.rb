@@ -1,3 +1,13 @@
+# * scheme *
+# items:
+#   - 
+#     class_name: "A"
+#     class_id: 0
+#     feature_name: "0 1 0"
+#     feature_vectors:
+#       A: 2
+#       B: 5
+
 $learning_feature_vectors = [] # => N x D
 $learning_answers = [] # => N x K
 # weights => K X D
