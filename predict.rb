@@ -23,10 +23,10 @@ end
 weights = read_json 'data/kaomoji_weights.json'
 ans = read_json('data/kaomoji_features.json')['answers']
 
-text = $stdin.gets
-
-prediction = predict(weights, to_vector(text)).map do |x|
-  [x, ans[x[0].to_s]]
+while (text = $stdin.gets)&.chomp!
+  prediction = predict(weights, to_vector(text)).map do |x|
+    [x, ans[x[0].to_s]]
+  end
+  res = prediction.take(5)
+  puts "#{text}\t#{res[0][1]['name']}\t" + res[1..-1].map {|x| "#{x[1]['name']}: #{x[0][1]}"}.join(',  ')
 end
-puts "#{text} ===> " + prediction.take(5).map {|x| "#{x[1]['name']}: #{x[0][1]}"}.join(',  ')
-
