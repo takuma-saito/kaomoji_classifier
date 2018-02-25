@@ -34,6 +34,7 @@ answers = categories.each_with_object({}) {|(key, value), memo|
 # pp answers.select {|_, ans| ans[:count] == 1}
 # pp answers.values.sort {|a, b| a[:count] <=> b[:count]}
 puts({
+       class_size: answers.count,
        answers: answers,
        items: items,
      }.to_json)
