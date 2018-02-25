@@ -1,1 +1,3 @@
 *.json
+!/data/kaomoji_weights.json
+
