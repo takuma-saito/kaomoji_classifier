@@ -23,10 +23,10 @@ end
 weights = read_json 'data/kaomoji_weights.json'
 ans = read_json('data/kaomoji_features.json')['answers']
 
-text = '(^_^)d'
+text = $stdin.gets
 
 prediction = predict(weights, to_vector(text)).map do |x|
   [x, ans[x[0].to_s]]
 end
-p prediction.take(5)
+puts prediction.take(5).map {|x| "#{x[1]['name']}: #{x[0][1]}"}.join(',  ')
 
