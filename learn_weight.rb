@@ -71,20 +71,25 @@ def slope_diff(weights)
 end
 
 def learn_weight(delta)
-  2000.times do
+  ada_grad = Array.new($weights.size).map {
+    Array.new($weights.first.size, delta)
+  }
+  100.times do
     slope = slope_diff($weights)
     grad_val = 0.0
     slope.each.with_index do |weight, k|
       weight.each.with_index do |(key, value), d|
         grad_val += value ** 2
-        $weights[k][d] -= delta * value
+        ada_grad[k][d] += grad_val
+        $weights[k][d] -= (delta / Math.sqrt(ada_grad[k][d])) * value
       end
     end
-    puts grad_val
+    $stderr.puts grad_val
   end
 end
 
-learn_weight(0.01)
-p $weights
-# p slope_diff($weights)
+learn_weight(1.0)
+$stderr.puts probs($weights, {0 => 2, 1 => 0, 2 => 2})
+$stderr.puts slope_diff($weights)
 # p $weights
+puts $weights.to_json
