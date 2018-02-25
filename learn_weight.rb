@@ -8,7 +8,8 @@
 #     feature_vector:
 #       A: 2
 #       B: 5
-require 'json'
+
+require_relative 'common'
 
 $feature_vectors = nil # => N x D
 $answers = nil # => N x K
@@ -31,24 +32,6 @@ end
 
 $feature_vectors, $answers, $weights =
                             read_vectors("data/kaomoji_features.json")
-
-def in_product(weight, feature_vector)
-  (weight.keys + feature_vector.keys)
-    .group_by {|k| k}
-    .select {|k, v| v.count > 1}
-    .map(&:first)
-    .inject(0.0) do |memo, key|
-    memo + weight[key] * feature_vector[key]
-  end
-end
-
-def probs(weights, feature_vector)
-  probs = weights.map do |weight|
-    Math.exp(in_product(weight, feature_vector))
-  end
-  sum = probs.reduce(&:+)
-  probs.map {|x| x / sum}
-end
 
 def with_diff_slope(weights, &block)
   $feature_vectors.each.with_index do |feature_vector, n|
