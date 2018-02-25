@@ -72,7 +72,7 @@ end
 
 def learn_weight(delta)
   ada_grad = Array.new($weights.size).map { Hash.new }
-  100.times do
+  500.times do
     slope = slope_diff($weights)
     grad_val = 0.0
     slope.each.with_index do |weight, k|
@@ -87,7 +87,7 @@ def learn_weight(delta)
   end
 end
 
-learn_weight(1.0)
+learn_weight(10.0)
 $stderr.puts probs($weights, {0 => 2, 1 => 0, 2 => 2})
 $stderr.puts slope_diff($weights)
 # p $weights
