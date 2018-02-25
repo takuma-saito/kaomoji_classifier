@@ -28,5 +28,5 @@ text = $stdin.gets
 prediction = predict(weights, to_vector(text)).map do |x|
   [x, ans[x[0].to_s]]
 end
-puts prediction.take(5).map {|x| "#{x[1]['name']}: #{x[0][1]}"}.join(',  ')
+puts "#{text} ===> " + prediction.take(5).map {|x| "#{x[1]['name']}: #{x[0][1]}"}.join(',  ')
 
