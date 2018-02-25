@@ -1,46 +1,22 @@
 require 'json'
 
-docs = []
-freqs = {}
+items = []
 categories = {}
 unicodes = {}
 while (line = $stdin.gets)&.chomp!
   n = line.split("$")
   ords = n[0].chars.map(&:ord).map(&:to_i)
-  ords.each {|ord|
-    freqs[ord] ||= 0
-    freqs[ord] += 1
-  }
   len = categories.length
   categories[n[1]] = {
     count: (categories[n[1]]&.[](:count) || 0) + 1,
     len: (categories[n[1]]&.[](:len) || len)
   }
-  docs << {
+  items << {
     t: n[1],
     t_id: categories[n[1]][:len],
     v: n[0],
-    vector: ords.each_with_object({}) {|c, memo|
-      unicodes[c] = unicodes.length if unicodes[c].nil?
-      memo[unicodes[c]] ||= 0
-      memo[unicodes[c]] += 1
-    }
+    vector: ords
   }
-end
-
-D = docs.length.to_f
-idf = freqs.map {|ord, count|
-  [ord, Math.log(D / count.to_f)]
-}.to_h
-
-inv_unicodes = [unicodes.values, unicodes.keys].transpose.to_h
-
-items = docs.map do |d|
-  d[:vector] =
-    d[:vector].map {|ord, feature|
-    [ord, idf[inv_unicodes[ord]] * feature.to_f]
-  }.to_h
-  d
 end
 
 answers = categories.each_with_object({}) {|(key, value), memo|
@@ -55,6 +31,5 @@ answers = categories.each_with_object({}) {|(key, value), memo|
 # pp answers.values.sort {|a, b| a[:count] <=> b[:count]}
 puts({
        answers: answers,
-       features: inv_unicodes,
        items: items,
      }.to_json)
