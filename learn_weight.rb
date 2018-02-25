@@ -18,10 +18,14 @@ def read_vectors(filename)
   data = JSON.parse(File.read(filename))
   items = data['items']
   csize = data['class_size']
-  feature_vectors = items.map {|x| x['feature_vector']}
-  answers = items.map {|item| Array.new(csize, 0.0)}
-  weight_feature = feature_vectors.map(&:values).flatten.uniq.map {|x| [x, 0.0]}.to_h
-  weights = Array.new(csize, weight_feature.dup)
+  feature_vectors = items.map {|x| x['feature_vector'].map {|k, v| [k.to_i, v]}.to_h}
+  answers = items.map {|item|
+    arr = Array.new(csize, 0.0)
+    arr[item['class_id']] = 1.0
+    arr
+  }
+  weight_feature = feature_vectors.map(&:keys).flatten.uniq.map {|x| [x.to_i, 0.0]}.to_h
+  weights = Array.new(csize).map {weight_feature.dup}
   [feature_vectors, answers, weights]
 end
 
@@ -33,7 +37,7 @@ def in_product(weight, feature_vector)
     .group_by {|k| k}
     .select {|k, v| v.count > 1}
     .map(&:first)
-    .each_with_object(0.0) do |key, memo|
+    .inject(0.0) do |memo, key|
     memo + weight[key] * feature_vector[key]
   end
 end
@@ -66,4 +70,21 @@ def slope_diff(weights)
   memo
 end
 
-p slope_diff($weights)
+def learn_weight(delta)
+  2000.times do
+    slope = slope_diff($weights)
+    grad_val = 0.0
+    slope.each.with_index do |weight, k|
+      weight.each.with_index do |(key, value), d|
+        grad_val += value ** 2
+        $weights[k][d] -= delta * value
+      end
+    end
+    puts grad_val
+  end
+end
+
+learn_weight(0.01)
+p $weights
+# p slope_diff($weights)
+# p $weights
