@@ -70,7 +70,7 @@ def learn_weight(delta, num)
   end
 end
 
-learn_weight(($weights.size * 100) * 0.01, num)
+learn_weight(($weights.size * 100) * 0.003, num)
 $stderr.puts probs($weights, {0 => 2, 1 => 0, 2 => 2})
 $stderr.puts slope_diff($weights)
 puts $weights.to_json
