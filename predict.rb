@@ -20,13 +20,13 @@ def predict(weights, vector)
     .reverse
 end
 
-weights = read_json 'data/kaomoji_weights.json'
-ans = read_json('data/kaomoji_features.json')['answers']
+weights = read_json ARGV[0]
+ans = read_json(ARGV[1])['answers']
 
 while (text = $stdin.gets)&.chomp!
   prediction = predict(weights, to_vector(text)).map do |x|
     [x, ans[x[0].to_s]]
   end
   res = prediction.take(5)
-  puts "#{text}\t#{res[0][1]['name']}\t" + res[1..-1].map {|x| "#{x[1]['name']}: #{x[0][1]}"}.join(',  ')
+  puts "#{text}$#{res[0][1]['name']}\t" + res.map {|x| "#{x[1]['name']}: #{x[0][1]}"}.join(',  ')
 end
