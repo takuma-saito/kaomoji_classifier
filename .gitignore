@@ -1,4 +1,5 @@
 *.json
 /data/kaomoji_predicted.txt
 !/data/kaomoji_weights.json
+!training_data.json
 
