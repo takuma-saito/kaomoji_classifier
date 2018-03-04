@@ -30,8 +30,8 @@ def read_vectors(filename)
   [feature_vectors, answers, weights]
 end
 
-$feature_vectors, $answers, $weights =
-                            read_vectors("data/kaomoji_features.json")
+$feature_vectors, $answers, $weights = read_vectors(ARGV[0])
+num = (ARGV[1] || 500).to_i
 
 def with_diff_slope(weights, &block)
   $feature_vectors.each.with_index do |feature_vector, n|
@@ -53,9 +53,9 @@ def slope_diff(weights)
   memo
 end
 
-def learn_weight(delta)
+def learn_weight(delta, num)
   ada_grad = Array.new($weights.size).map { Hash.new }
-  500.times do
+  num.times do
     slope = slope_diff($weights)
     grad_val = 0.0
     slope.each.with_index do |weight, k|
@@ -70,8 +70,7 @@ def learn_weight(delta)
   end
 end
 
-learn_weight(10.0)
+learn_weight(($weights.size * 100) * 0.01, num)
 $stderr.puts probs($weights, {0 => 2, 1 => 0, 2 => 2})
 $stderr.puts slope_diff($weights)
-# p $weights
 puts $weights.to_json
