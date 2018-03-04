@@ -3,4 +3,4 @@
 !/data/kaomoji_weights.json
 !training_data.json
 stderr.log
-
+nohup.out
