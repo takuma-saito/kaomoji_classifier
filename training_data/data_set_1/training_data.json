@@ -1,8 +1,8 @@
 {
-  "class_size": 35,
+  "class_size": 22,
   "answers": {
     "0": {
-      "count": 30,
+      "count": 54,
       "name": "不満",
       "id": 0
     },
@@ -12,17 +12,17 @@
       "id": 1
     },
     "2": {
-      "count": 4,
-      "name": "気遣い",
+      "count": 102,
+      "name": "悲しい",
       "id": 2
     },
     "3": {
-      "count": 15,
-      "name": "期待",
+      "count": 137,
+      "name": "了解",
       "id": 3
     },
     "4": {
-      "count": 35,
+      "count": 40,
       "name": "_",
       "id": 4
     },
@@ -32,149 +32,84 @@
       "id": 5
     },
     "6": {
-      "count": 82,
+      "count": 90,
       "name": "困惑",
       "id": 6
     },
     "7": {
-      "count": 125,
+      "count": 146,
       "name": "嬉しい",
       "id": 7
     },
     "8": {
-      "count": 75,
-      "name": "悲しい",
+      "count": 77,
+      "name": "驚き",
       "id": 8
     },
     "9": {
-      "count": 14,
-      "name": "ひらめき",
+      "count": 30,
+      "name": "恥ずかしい",
       "id": 9
     },
     "10": {
-      "count": 52,
-      "name": "驚き",
+      "count": 16,
+      "name": "渡す",
       "id": 10
     },
     "11": {
-      "count": 112,
-      "name": "了解",
+      "count": 2,
+      "name": "眠る",
       "id": 11
     },
     "12": {
-      "count": 29,
-      "name": "恥ずかしい",
+      "count": 10,
+      "name": "興奮",
       "id": 12
     },
     "13": {
-      "count": 19,
-      "name": "お願い",
+      "count": 23,
+      "name": "決意",
       "id": 13
     },
     "14": {
-      "count": 15,
-      "name": "渡す",
+      "count": 12,
+      "name": "寂しい",
       "id": 14
     },
     "15": {
-      "count": 13,
-      "name": "気付き",
+      "count": 1,
+      "name": "驚きー",
       "id": 15
     },
     "16": {
-      "count": 36,
-      "name": "無関心",
+      "count": 5,
+      "name": "感謝",
       "id": 16
     },
     "17": {
-      "count": 2,
-      "name": "眠る",
+      "count": 5,
+      "name": "一体感",
       "id": 17
     },
     "18": {
-      "count": 3,
-      "name": "気付く",
+      "count": 1,
+      "name": "笑い",
       "id": 18
     },
     "19": {
-      "count": 10,
-      "name": "興奮",
+      "count": 3,
+      "name": "オワタ",
       "id": 19
     },
     "20": {
-      "count": 22,
-      "name": "決意",
+      "count": 1,
+      "name": null,
       "id": 20
     },
     "21": {
-      "count": 12,
-      "name": "寂しい",
-      "id": 21
-    },
-    "22": {
-      "count": 5,
-      "name": "おもしろ",
-      "id": 22
-    },
-    "23": {
-      "count": 10,
-      "name": "別れ",
-      "id": 23
-    },
-    "24": {
-      "count": 5,
-      "name": "感謝",
-      "id": 24
-    },
-    "25": {
-      "count": 5,
-      "name": "一体感",
-      "id": 25
-    },
-    "26": {
-      "count": 4,
-      "name": "おーい",
-      "id": 26
-    },
-    "27": {
-      "count": 4,
-      "name": "お手上げ",
-      "id": 27
-    },
-    "28": {
-      "count": 1,
-      "name": "笑い",
-      "id": 28
-    },
-    "29": {
-      "count": 6,
-      "name": "甘える",
-      "id": 29
-    },
-    "30": {
-      "count": 4,
-      "name": "謝意",
-      "id": 30
-    },
-    "31": {
-      "count": 3,
-      "name": "オワタ",
-      "id": 31
-    },
-    "32": {
-      "count": 2,
-      "name": "無表情",
-      "id": 32
-    },
-    "33": {
-      "count": 1,
-      "name": null,
-      "id": 33
-    },
-    "34": {
       "count": 1,
       "name": ")驚き",
-      "id": 34
+      "id": 21
     }
   },
   "items": [
@@ -205,7 +140,7 @@
       }
     },
     {
-      "class_name": "気遣い",
+      "class_name": "悲しい",
       "class_id": 2,
       "feature_name": "(´･ω･`)",
       "feature_vector": {
@@ -218,7 +153,7 @@
       }
     },
     {
-      "class_name": "期待",
+      "class_name": "了解",
       "class_id": 3,
       "feature_name": "ヾ(´・×・)ノ",
       "feature_vector": {
@@ -288,7 +223,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ノД`)！",
       "feature_vector": {
         "40": 1,
@@ -301,8 +236,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "( °∀°)！",
       "feature_vector": {
         "40": 1,
@@ -315,7 +250,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(゜o゜)",
       "feature_vector": {
         "40": 1,
@@ -326,7 +261,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "・(｀_´)ゞ",
       "feature_vector": {
         "12539": 1,
@@ -340,7 +275,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(^o^)／ロ",
       "feature_vector": {
         "40": 1,
@@ -353,7 +288,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(´▽｀)/！",
       "feature_vector": {
         "12541": 1,
@@ -368,7 +303,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "（//ω//）",
       "feature_vector": {
         "65288": 1,
@@ -392,7 +327,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "～(ΦωΦ)ﾉ",
       "feature_vector": {
         "65374": 1,
@@ -405,7 +340,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "!!(・∀・)b",
       "feature_vector": {
         "33": 2,
@@ -417,7 +352,7 @@
       }
     },
     {
-      "class_name": "気遣い",
+      "class_name": "悲しい",
       "class_id": 2,
       "feature_name": "ヾ(・ω・)",
       "feature_vector": {
@@ -430,7 +365,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(ﾉД≦)",
       "feature_vector": {
         "40": 1,
@@ -454,7 +389,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "^q^",
       "feature_vector": {
         "94": 2,
@@ -463,7 +398,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "っ(ゝω・)",
       "feature_vector": {
         "12387": 1,
@@ -498,8 +433,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "ん(n'ω')n",
       "feature_vector": {
         "12435": 1,
@@ -538,7 +473,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "ヽ(；∇；)/",
       "feature_vector": {
         "12541": 1,
@@ -551,7 +486,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "(｀･ω･´)!っ",
       "feature_vector": {
         "40": 1,
@@ -566,7 +501,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´；ω；｀)",
       "feature_vector": {
         "40": 1,
@@ -579,7 +514,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "ヽ（´Д｀）ノ",
       "feature_vector": {
         "12541": 1,
@@ -593,7 +528,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´-｀;)",
       "feature_vector": {
         "40": 1,
@@ -606,7 +541,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´;ω;`)",
       "feature_vector": {
         "40": 1,
@@ -619,7 +554,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "Σ（ﾟдﾟ;）",
       "feature_vector": {
         "931": 1,
@@ -632,7 +567,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´▽｀*)ノ♪",
       "feature_vector": {
         "40": 1,
@@ -646,8 +581,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "、(ノ^∇^)／",
       "feature_vector": {
         "12289": 1,
@@ -660,8 +595,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "～(・□・)!!",
       "feature_vector": {
         "65374": 1,
@@ -673,8 +608,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "┐(´∀｀)",
       "feature_vector": {
         "9488": 1,
@@ -687,7 +622,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "･(ﾉд`)っ",
       "feature_vector": {
         "65381": 1,
@@ -701,7 +636,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "（ﾟ◇ﾟ）！",
       "feature_vector": {
         "65288": 1,
@@ -724,8 +659,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(´=ω=`)",
       "feature_vector": {
         "40": 1,
@@ -749,8 +684,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "⊂( ´_ゝ`)",
       "feature_vector": {
         "8834": 1,
@@ -777,8 +712,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "!!＼(^o^)／",
       "feature_vector": {
         "33": 2,
@@ -792,7 +727,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "（°∇°）ﾉ",
       "feature_vector": {
         "65288": 1,
@@ -804,7 +739,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(＾ω＾ゞ)",
       "feature_vector": {
         "40": 1,
@@ -816,7 +751,7 @@
     },
     {
       "class_name": "眠る",
-      "class_id": 17,
+      "class_id": 11,
       "feature_name": "(*ˇ◡ˇ*)",
       "feature_vector": {
         "40": 1,
@@ -853,7 +788,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´Д`)",
       "feature_vector": {
         "40": 1,
@@ -865,7 +800,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(ﾟ^o^ﾟ)ﾟ･｡",
       "feature_vector": {
         "40": 1,
@@ -889,8 +824,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "((*ﾟ∀ﾟ))!",
       "feature_vector": {
         "40": 2,
@@ -915,7 +850,7 @@
       }
     },
     {
-      "class_name": "期待",
+      "class_name": "了解",
       "class_id": 3,
       "feature_name": "んヽ(´ω｀)ノ",
       "feature_vector": {
@@ -946,7 +881,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´▽｀)ノ",
       "feature_vector": {
         "40": 1,
@@ -959,8 +894,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(´･ρ･｀)",
       "feature_vector": {
         "40": 1,
@@ -972,8 +907,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "_",
+      "class_id": 4,
       "feature_name": "(*-ω-)",
       "feature_vector": {
         "40": 1,
@@ -999,7 +934,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "((´ω｀))",
       "feature_vector": {
         "40": 2,
@@ -1010,8 +945,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(*‘◇‘)",
       "feature_vector": {
         "40": 1,
@@ -1023,7 +958,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "～(ﾟoﾟ;)",
       "feature_vector": {
         "65374": 1,
@@ -1036,7 +971,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(´＞ω＜｀)☆",
       "feature_vector": {
         "40": 1,
@@ -1051,7 +986,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "( *´艸)",
       "feature_vector": {
         "40": 1,
@@ -1088,8 +1023,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(°∀°)!!!",
       "feature_vector": {
         "40": 1,
@@ -1112,8 +1047,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "・・・┐(´д｀)┌ﾔﾚﾔﾚ",
       "feature_vector": {
         "12539": 3,
@@ -1143,8 +1078,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(*≧ω≦*)",
       "feature_vector": {
         "40": 1,
@@ -1170,7 +1105,7 @@
       }
     },
     {
-      "class_name": "気遣い",
+      "class_name": "悲しい",
       "class_id": 2,
       "feature_name": "○ヾ(-ω-｡*)",
       "feature_vector": {
@@ -1199,8 +1134,8 @@
       }
     },
     {
-      "class_name": "気付く",
-      "class_id": 18,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "━━(・∀・)━━━!!",
       "feature_vector": {
         "9473": 5,
@@ -1212,8 +1147,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "・A・ノ",
       "feature_vector": {
         "12539": 2,
@@ -1233,8 +1168,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "(へ・3・)／",
       "feature_vector": {
         "40": 1,
@@ -1272,7 +1207,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(*´艸｀*)ﾊｧﾊｧ",
       "feature_vector": {
         "40": 1,
@@ -1287,7 +1222,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "！(*￣ω￣)ﾉ",
       "feature_vector": {
         "65281": 1,
@@ -1323,7 +1258,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "（ヾﾟ∀ﾟ)ヾノ",
       "feature_vector": {
         "65288": 1,
@@ -1336,7 +1271,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*｀ω´)ｷﾘｯ",
       "feature_vector": {
         "40": 1,
@@ -1352,7 +1287,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "(´・ω・｀)シ",
       "feature_vector": {
         "40": 1,
@@ -1378,7 +1313,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "(´・ム・｀)",
       "feature_vector": {
         "40": 1,
@@ -1391,7 +1326,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "ﾟ｡(ﾟ^o^ﾟ)ﾟ｡",
       "feature_vector": {
         "65439": 4,
@@ -1403,8 +1338,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "恥ずかしい",
+      "class_id": 9,
       "feature_name": "Σ(・艸・ﾒ)!!",
       "feature_vector": {
         "931": 1,
@@ -1418,7 +1353,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "(･×･`)",
       "feature_vector": {
         "40": 1,
@@ -1430,7 +1365,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(/ω＼*)!!",
       "feature_vector": {
         "40": 1,
@@ -1468,7 +1403,7 @@
       }
     },
     {
-      "class_name": "気付き",
+      "class_name": "驚きー",
       "class_id": 15,
       "feature_name": "(≧Д≦)！",
       "feature_vector": {
@@ -1481,8 +1416,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "（ノ∀｀）",
       "feature_vector": {
         "65288": 1,
@@ -1494,7 +1429,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "|*ﾟωﾟ)",
       "feature_vector": {
         "124": 1,
@@ -1518,8 +1453,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(ﾟ▽ﾟ)！",
       "feature_vector": {
         "40": 1,
@@ -1558,8 +1493,8 @@
       }
     },
     {
-      "class_name": "おもしろ",
-      "class_id": 22,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(;;ﾟωﾟ;;)",
       "feature_vector": {
         "40": 1,
@@ -1585,7 +1520,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "∩*´ω｀*∩",
       "feature_vector": {
         "8745": 2,
@@ -1596,8 +1531,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(´・ω・｀)ノシ",
       "feature_vector": {
         "40": 1,
@@ -1612,7 +1547,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヾ(´ω｀)ﾉ！",
       "feature_vector": {
         "12542": 1,
@@ -1627,7 +1562,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(〃'▽'〃)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -1653,7 +1588,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(´･∀･`)ﾉ",
       "feature_vector": {
         "12541": 1,
@@ -1668,7 +1603,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(=ﾟдﾟ)",
       "feature_vector": {
         "40": 1,
@@ -1680,7 +1615,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "。(T-T)",
       "feature_vector": {
         "12290": 1,
@@ -1692,7 +1627,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "っ(=・ω・)ﾉ",
       "feature_vector": {
         "12387": 1,
@@ -1705,8 +1640,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "ー( ；´Д｀) つ",
       "feature_vector": {
         "12540": 1,
@@ -1722,7 +1657,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(〃∀〃)ノ",
       "feature_vector": {
         "12541": 1,
@@ -1749,7 +1684,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "んヾ(･д･*)",
       "feature_vector": {
         "12435": 1,
@@ -1763,7 +1698,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(´Д`)ﾊｧﾊｧ",
       "feature_vector": {
         "40": 1,
@@ -1777,7 +1712,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ぅ(*´q`)ﾉ",
       "feature_vector": {
         "12357": 1,
@@ -1792,7 +1727,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "っ（＾ｰ^)ノ",
       "feature_vector": {
         "12387": 1,
@@ -1834,7 +1769,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "～(T∀T)",
       "feature_vector": {
         "65374": 1,
@@ -1846,7 +1781,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(σ´□｀)σ・・・・",
       "feature_vector": {
         "40": 1,
@@ -1860,7 +1795,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "!!(゜д゜)",
       "feature_vector": {
         "33": 2,
@@ -1872,7 +1807,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "＜(TдT)",
       "feature_vector": {
         "65308": 1,
@@ -1884,7 +1819,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(o≧▽ﾟ)",
       "feature_vector": {
         "40": 1,
@@ -1897,7 +1832,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "( ;°Д°))))",
       "feature_vector": {
         "40": 1,
@@ -1909,8 +1844,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(ﾟДﾟ三ﾟДﾟ)",
       "feature_vector": {
         "40": 1,
@@ -1935,7 +1870,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "ー(ﾉД`)(ﾉД`)",
       "feature_vector": {
         "12540": 1,
@@ -1948,7 +1883,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(゜ロ゜;)",
       "feature_vector": {
         "40": 1,
@@ -1960,7 +1895,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(|||｡Д°)",
       "feature_vector": {
         "40": 1,
@@ -1972,8 +1907,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "（つД-）",
       "feature_vector": {
         "65288": 1,
@@ -1984,8 +1919,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "_φ(ﾟ▽ﾟ*)♪",
       "feature_vector": {
         "95": 1,
@@ -2000,7 +1935,7 @@
     },
     {
       "class_name": "感謝",
-      "class_id": 24,
+      "class_id": 16,
       "feature_name": "(*￣▽￣*)ノ",
       "feature_vector": {
         "40": 1,
@@ -2013,7 +1948,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(ﾟ^д^ﾟ)ﾟ",
       "feature_vector": {
         "40": 1,
@@ -2025,7 +1960,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "・ω・ノ",
       "feature_vector": {
         "12539": 2,
@@ -2035,7 +1970,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "っΣ(゜д゜；)っ",
       "feature_vector": {
         "12387": 2,
@@ -2061,8 +1996,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "_",
+      "class_id": 4,
       "feature_name": "(○-○)",
       "feature_vector": {
         "40": 1,
@@ -2073,7 +2008,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "ﾟ∀ﾟ）ｱﾋｬ",
       "feature_vector": {
         "65439": 2,
@@ -2086,7 +2021,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "ー(´Д｀)or",
       "feature_vector": {
         "12540": 1,
@@ -2115,7 +2050,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "( ・ω・｀)",
       "feature_vector": {
         "40": 1,
@@ -2165,8 +2100,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "(○´∀｀)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -2206,7 +2141,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(o^-')b♪",
       "feature_vector": {
         "40": 1,
@@ -2221,7 +2156,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( T∀T)",
       "feature_vector": {
         "40": 1,
@@ -2233,7 +2168,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "（｀・ω・´）",
       "feature_vector": {
         "65288": 1,
@@ -2258,8 +2193,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "～（＾ω＾）ﾉ",
       "feature_vector": {
         "65374": 1,
@@ -2272,7 +2207,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(^-^ゞ",
       "feature_vector": {
         "40": 1,
@@ -2283,7 +2218,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "ヽ（｀・ω・´）ﾉ",
       "feature_vector": {
         "12541": 1,
@@ -2297,8 +2232,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(´；ω；`)ノ",
       "feature_vector": {
         "40": 1,
@@ -2312,7 +2247,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(;´д｀)ハァハァ",
       "feature_vector": {
         "40": 1,
@@ -2339,7 +2274,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ん(^-^*)/",
       "feature_vector": {
         "12435": 1,
@@ -2353,7 +2288,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ー(＾ω＾) #m",
       "feature_vector": {
         "12540": 1,
@@ -2379,7 +2314,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(●･´艸｀･)",
       "feature_vector": {
         "40": 1,
@@ -2392,8 +2327,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(´∀｀*)「",
       "feature_vector": {
         "40": 1,
@@ -2421,8 +2356,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "_",
+      "class_id": 4,
       "feature_name": "～（´ω`）",
       "feature_vector": {
         "65374": 1,
@@ -2447,8 +2382,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "ｰ(-_-)",
       "feature_vector": {
         "65392": 1,
@@ -2460,7 +2395,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;・；ω・;)",
       "feature_vector": {
         "40": 1,
@@ -2485,7 +2420,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "（／Д｀)",
       "feature_vector": {
         "65288": 1,
@@ -2497,7 +2432,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "っ(/^^)/",
       "feature_vector": {
         "12387": 1,
@@ -2509,7 +2444,7 @@
     },
     {
       "class_name": "一体感",
-      "class_id": 25,
+      "class_id": 17,
       "feature_name": "ﾅｶｰﾏ(・∀・)人(・∀・)ｗ",
       "feature_vector": {
         "65413": 1,
@@ -2525,8 +2460,8 @@
       }
     },
     {
-      "class_name": "おもしろ",
-      "class_id": 22,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "((⊂(^ω^)⊃))",
       "feature_vector": {
         "40": 3,
@@ -2539,7 +2474,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "('□')o彡°",
       "feature_vector": {
         "40": 1,
@@ -2553,7 +2488,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*^ー^)ノ♪",
       "feature_vector": {
         "40": 1,
@@ -2567,7 +2502,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´･ω･`*)",
       "feature_vector": {
         "40": 1,
@@ -2580,7 +2515,7 @@
       }
     },
     {
-      "class_name": "気遣い",
+      "class_name": "悲しい",
       "class_id": 2,
       "feature_name": "ヾ(・ε・。)♪",
       "feature_vector": {
@@ -2594,8 +2529,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(-_-)",
       "feature_vector": {
         "40": 1,
@@ -2618,7 +2553,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "＼(*´∀｀)／",
       "feature_vector": {
         "65340": 1,
@@ -2633,7 +2568,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "(´・ω・｀)",
       "feature_vector": {
         "40": 1,
@@ -2661,7 +2596,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "＼(°ω°)／",
       "feature_vector": {
         "65340": 1,
@@ -2684,8 +2619,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "'ω'",
       "feature_vector": {
         "39": 2,
@@ -2704,8 +2639,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(ﾟ∀ﾟ≡ﾟ∀ﾟ)",
       "feature_vector": {
         "40": 1,
@@ -2729,7 +2664,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "Σ!(*´□｀*)",
       "feature_vector": {
         "931": 1,
@@ -2744,7 +2679,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "(*´∀｀)っ",
       "feature_vector": {
         "40": 1,
@@ -2758,7 +2693,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "っ˘з˘)っ",
       "feature_vector": {
         "12387": 2,
@@ -2768,8 +2703,8 @@
       }
     },
     {
-      "class_name": "おーい",
-      "class_id": 26,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "ヾ(@ﾟ∀ﾟ@)ﾉ",
       "feature_vector": {
         "12542": 1,
@@ -2794,8 +2729,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "ｰ(゜▽゜)!!",
       "feature_vector": {
         "65392": 1,
@@ -2821,8 +2756,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "。(￣ω￣)",
       "feature_vector": {
         "12290": 1,
@@ -2834,7 +2769,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(b・ω・d)",
       "feature_vector": {
         "40": 1,
@@ -2862,7 +2797,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "Σ(・ω・ノ)ﾉ",
       "feature_vector": {
         "931": 1,
@@ -2888,7 +2823,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(//´ω｀//)",
       "feature_vector": {
         "40": 1,
@@ -2914,7 +2849,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "（;´Д｀）",
       "feature_vector": {
         "65288": 1,
@@ -2926,8 +2861,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "ゝ(*・∀-*)ﾉ",
       "feature_vector": {
         "12445": 1,
@@ -2957,7 +2892,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(*´Д`；)",
       "feature_vector": {
         "40": 1,
@@ -2982,7 +2917,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "（;ﾟДﾟ）",
       "feature_vector": {
         "65288": 1,
@@ -2993,8 +2928,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(･ﾟρﾟ*)ﾉｼ＜",
       "feature_vector": {
         "40": 1,
@@ -3048,7 +2983,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(^-^)b！",
       "feature_vector": {
         "40": 1,
@@ -3060,8 +2995,8 @@
       }
     },
     {
-      "class_name": "お手上げ",
-      "class_id": 27,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "∩( ・ω・)∩",
       "feature_vector": {
         "8745": 2,
@@ -3086,7 +3021,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "(;´ω｀)つ",
       "feature_vector": {
         "40": 1,
@@ -3100,7 +3035,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*°___°*)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -3112,8 +3047,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "ヽ(；▽；)ノ",
       "feature_vector": {
         "12541": 1,
@@ -3125,8 +3060,8 @@
       }
     },
     {
-      "class_name": "おーい",
-      "class_id": 26,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "ヾ( ﾟДﾟ)ﾉ",
       "feature_vector": {
         "12542": 1,
@@ -3182,7 +3117,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "_(ﾟдﾟ｣",
       "feature_vector": {
         "95": 1,
@@ -3194,7 +3129,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;´д｀)!!",
       "feature_vector": {
         "40": 1,
@@ -3237,7 +3172,7 @@
     },
     {
       "class_name": "笑い",
-      "class_id": 28,
+      "class_id": 18,
       "feature_name": "（´ﾟ艸ﾟ）",
       "feature_vector": {
         "65288": 1,
@@ -3248,8 +3183,8 @@
       }
     },
     {
-      "class_name": "お手上げ",
-      "class_id": 27,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "ー(∩＞ω＜)∩",
       "feature_vector": {
         "12540": 1,
@@ -3262,8 +3197,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "ヾ(=^▽^=)ノﾍ",
       "feature_vector": {
         "12542": 1,
@@ -3277,8 +3212,8 @@
       }
     },
     {
-      "class_name": "困惑",
-      "class_id": 6,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "～(^q^)",
       "feature_vector": {
         "65374": 1,
@@ -3290,7 +3225,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "☆-(ゝω・)vｷｬﾋﾟ",
       "feature_vector": {
         "9734": 1,
@@ -3309,7 +3244,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ｀・∀・)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -3323,7 +3258,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*･ω･)ﾉ。",
       "feature_vector": {
         "40": 1,
@@ -3336,8 +3271,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(´･ω･｀三´･ω･｀)",
       "feature_vector": {
         "40": 1,
@@ -3351,7 +3286,7 @@
     },
     {
       "class_name": "一体感",
-      "class_id": 25,
+      "class_id": 17,
       "feature_name": "(･_･)人(｀Д´)人",
       "feature_vector": {
         "40": 2,
@@ -3375,7 +3310,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "(*´ω`)⊃",
       "feature_vector": {
         "40": 1,
@@ -3389,7 +3324,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(m´Д｀)m",
       "feature_vector": {
         "40": 1,
@@ -3402,7 +3337,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "=(´Д｀)",
       "feature_vector": {
         "61": 1,
@@ -3426,7 +3361,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ^_^)／",
       "feature_vector": {
         "40": 1,
@@ -3439,7 +3374,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;__;)",
       "feature_vector": {
         "40": 1,
@@ -3449,8 +3384,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(^w^)!!",
       "feature_vector": {
         "40": 1,
@@ -3461,8 +3396,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(￣∀+￣)",
       "feature_vector": {
         "40": 1,
@@ -3474,7 +3409,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*ﾟ▽ﾟ)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -3498,7 +3433,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "（｡・∀・）ﾉ",
       "feature_vector": {
         "65288": 1,
@@ -3510,8 +3445,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(´ε`@)",
       "feature_vector": {
         "40": 1,
@@ -3534,8 +3469,8 @@
       }
     },
     {
-      "class_name": "困惑",
-      "class_id": 6,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(;´ρ`)",
       "feature_vector": {
         "40": 1,
@@ -3558,8 +3493,8 @@
       }
     },
     {
-      "class_name": "お手上げ",
-      "class_id": 27,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "∩･ω･∩",
       "feature_vector": {
         "8745": 2,
@@ -3568,8 +3503,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "・・・ヽ(´▽｀)/",
       "feature_vector": {
         "12539": 3,
@@ -3584,7 +3519,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´;ω;｀)」",
       "feature_vector": {
         "40": 1,
@@ -3598,7 +3533,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ﾟωﾟ)/",
       "feature_vector": {
         "40": 1,
@@ -3611,7 +3546,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(⌒▽⌒)/",
       "feature_vector": {
         "40": 1,
@@ -3675,7 +3610,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(;°A°)",
       "feature_vector": {
         "40": 1,
@@ -3687,7 +3622,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*+ω+)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -3700,7 +3635,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "Σ（゜∀゜）",
       "feature_vector": {
         "931": 1,
@@ -3725,7 +3660,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(*´∀`)ﾉ",
       "feature_vector": {
         "12541": 1,
@@ -3740,7 +3675,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "～(*´ω｀)ﾉ",
       "feature_vector": {
         "65374": 1,
@@ -3755,7 +3690,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(;￣∀￣)┛",
       "feature_vector": {
         "40": 1,
@@ -3768,7 +3703,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(#)Д｀;;)",
       "feature_vector": {
         "40": 1,
@@ -3792,7 +3727,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(｀・ω・)／",
       "feature_vector": {
         "40": 1,
@@ -3804,8 +3739,8 @@
       }
     },
     {
-      "class_name": "困惑",
-      "class_id": 6,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "┐(´ｰ｀)┌",
       "feature_vector": {
         "9488": 1,
@@ -3819,7 +3754,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ー(^･ｪ･)ﾉ",
       "feature_vector": {
         "12540": 1,
@@ -3845,7 +3780,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(ﾟ▽ﾟ)ﾉ",
       "feature_vector": {
         "12541": 1,
@@ -3858,7 +3793,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´3｀)b",
       "feature_vector": {
         "40": 1,
@@ -3884,7 +3819,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(ﾟдﾟ)",
       "feature_vector": {
         "40": 1,
@@ -3907,8 +3842,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "━(・∀・)━!!!!",
       "feature_vector": {
         "9473": 2,
@@ -3921,7 +3856,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "～(=ﾟωﾟ)ﾉ",
       "feature_vector": {
         "65374": 1,
@@ -3935,7 +3870,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´;ω;｀)#p",
       "feature_vector": {
         "40": 1,
@@ -3950,7 +3885,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "･(･Д･)",
       "feature_vector": {
         "65381": 3,
@@ -4002,7 +3937,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヾ(`・ω・´)ﾉ",
       "feature_vector": {
         "12542": 1,
@@ -4033,7 +3968,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(●ﾟ∀ﾟ)",
       "feature_vector": {
         "40": 1,
@@ -4061,7 +3996,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "(・∀・)ロ",
       "feature_vector": {
         "40": 1,
@@ -4085,7 +4020,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "(゜-゜)っ",
       "feature_vector": {
         "40": 1,
@@ -4096,8 +4031,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(´∀｀)ノシ",
       "feature_vector": {
         "40": 1,
@@ -4136,8 +4071,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(･o･)!!",
       "feature_vector": {
         "40": 1,
@@ -4162,7 +4097,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "＼(゜Д゜)",
       "feature_vector": {
         "65340": 1,
@@ -4174,7 +4109,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "((´･ω･)",
       "feature_vector": {
         "40": 2,
@@ -4186,7 +4121,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "。(´ω`)",
       "feature_vector": {
         "12290": 1,
@@ -4198,8 +4133,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(〃⌒ー⌒〃)！",
       "feature_vector": {
         "40": 1,
@@ -4212,7 +4147,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "∑(ﾟ∀ﾟlll)",
       "feature_vector": {
         "8721": 1,
@@ -4237,7 +4172,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "Σ(￣□￣;",
       "feature_vector": {
         "931": 1,
@@ -4248,8 +4183,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(。・ω・。)！",
       "feature_vector": {
         "40": 1,
@@ -4261,8 +4196,8 @@
       }
     },
     {
-      "class_name": "甘える",
-      "class_id": 29,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "～ヾ(´∀｀)ﾉ",
       "feature_vector": {
         "65374": 1,
@@ -4277,7 +4212,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(｡•‿•｡)ノ",
       "feature_vector": {
         "40": 1,
@@ -4302,7 +4237,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "(´-`)つ",
       "feature_vector": {
         "40": 1,
@@ -4314,8 +4249,8 @@
       }
     },
     {
-      "class_name": "甘える",
-      "class_id": 29,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "ε=(ノ´∇`）ノ",
       "feature_vector": {
         "949": 1,
@@ -4330,7 +4265,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(*ノ▽ノ)ｷｬ",
       "feature_vector": {
         "40": 1,
@@ -4394,8 +4329,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(゜ロ゜)!!",
       "feature_vector": {
         "40": 1,
@@ -4406,8 +4341,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "( '-')",
       "feature_vector": {
         "40": 1,
@@ -4431,7 +4366,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(┐´；ω；`)┐",
       "feature_vector": {
         "40": 1,
@@ -4445,7 +4380,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "っ(≧▽≦)ゞ",
       "feature_vector": {
         "12387": 1,
@@ -4495,8 +4430,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(^ω^;)!!",
       "feature_vector": {
         "40": 1,
@@ -4509,7 +4444,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "（・ω・）v",
       "feature_vector": {
         "65288": 1,
@@ -4520,8 +4455,8 @@
       }
     },
     {
-      "class_name": "おもしろ",
-      "class_id": 22,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(;;ﾟ;ё;ﾟ;;)",
       "feature_vector": {
         "40": 1,
@@ -4532,8 +4467,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "ヾ( ´ー｀)",
       "feature_vector": {
         "12542": 1,
@@ -4547,7 +4482,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "～d(´∀｀)ノ",
       "feature_vector": {
         "65374": 1,
@@ -4562,7 +4497,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "！(*≧∀≦)ノ",
       "feature_vector": {
         "65281": 1,
@@ -4588,7 +4523,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "(´･_･`)",
       "feature_vector": {
         "40": 1,
@@ -4600,8 +4535,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(´д｀)!!",
       "feature_vector": {
         "40": 1,
@@ -4614,7 +4549,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´∇｀；",
       "feature_vector": {
         "40": 1,
@@ -4650,7 +4585,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(；ﾟдﾟ)",
       "feature_vector": {
         "40": 1,
@@ -4687,8 +4622,8 @@
       }
     },
     {
-      "class_name": "気付き",
-      "class_id": 15,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(´･ω･｀)！",
       "feature_vector": {
         "40": 1,
@@ -4702,7 +4637,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "ヾ(°□°*)/",
       "feature_vector": {
         "12542": 1,
@@ -4728,8 +4663,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "ヾ(*´∀`*)ﾉ",
       "feature_vector": {
         "12542": 1,
@@ -4744,7 +4679,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´；ω；｀)ﾒ",
       "feature_vector": {
         "40": 1,
@@ -4795,7 +4730,7 @@
     },
     {
       "class_name": "感謝",
-      "class_id": 24,
+      "class_id": 16,
       "feature_name": "(*^▽^*)ノ",
       "feature_vector": {
         "40": 1,
@@ -4808,7 +4743,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "(ρд;)",
       "feature_vector": {
         "40": 1,
@@ -4820,7 +4755,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "m(´ω｀m)",
       "feature_vector": {
         "109": 2,
@@ -4833,7 +4768,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(^-^)o",
       "feature_vector": {
         "40": 1,
@@ -4860,7 +4795,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "((；ω；)))",
       "feature_vector": {
         "40": 2,
@@ -4871,7 +4806,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(‘∀‘●)♪",
       "feature_vector": {
         "40": 1,
@@ -4883,8 +4818,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "～(*´◇｀*)ﾉ",
       "feature_vector": {
         "65374": 1,
@@ -4899,7 +4834,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(´ﾟ'ωﾟ`)",
       "feature_vector": {
         "40": 1,
@@ -4913,7 +4848,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "っっ(´；ω；`)",
       "feature_vector": {
         "12387": 2,
@@ -4942,7 +4877,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(≧∀≦)ﾉ",
       "feature_vector": {
         "12541": 1,
@@ -4955,8 +4890,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(･ˇωˇ･)",
       "feature_vector": {
         "40": 1,
@@ -4992,8 +4927,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "（'A`）",
       "feature_vector": {
         "65288": 1,
@@ -5004,8 +4939,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(o^∀^o)!",
       "feature_vector": {
         "40": 1,
@@ -5018,7 +4953,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "( ´・ω・)っ",
       "feature_vector": {
         "40": 1,
@@ -5032,7 +4967,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "Σ（・□・；)",
       "feature_vector": {
         "931": 1,
@@ -5045,7 +4980,7 @@
     },
     {
       "class_name": "一体感",
-      "class_id": 25,
+      "class_id": 17,
       "feature_name": "(´∀｀)(´∀｀)",
       "feature_vector": {
         "40": 2,
@@ -5056,8 +4991,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "ヾ(*´ਊ`)/",
       "feature_vector": {
         "12542": 1,
@@ -5071,8 +5006,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "！ヽ(´Д｀;≡;´Д｀)ﾉ",
       "feature_vector": {
         "65281": 1,
@@ -5089,7 +5024,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "（・ｗ・）/♪",
       "feature_vector": {
         "65288": 1,
@@ -5102,7 +5037,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヾ(´^ω^｀)ノ",
       "feature_vector": {
         "12542": 1,
@@ -5131,7 +5066,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "＼(´∀｀*)/",
       "feature_vector": {
         "65340": 1,
@@ -5145,8 +5080,8 @@
       }
     },
     {
-      "class_name": "お手上げ",
-      "class_id": 27,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "∩･ω･*∩",
       "feature_vector": {
         "8745": 2,
@@ -5156,8 +5091,8 @@
       }
     },
     {
-      "class_name": "謝意",
-      "class_id": 30,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(ρ＿；)",
       "feature_vector": {
         "40": 1,
@@ -5169,7 +5104,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(｀･д･´)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -5183,7 +5118,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( T_T)",
       "feature_vector": {
         "40": 1,
@@ -5195,7 +5130,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "Σ（ﾟдﾟ）",
       "feature_vector": {
         "931": 1,
@@ -5206,7 +5141,7 @@
       }
     },
     {
-      "class_name": "期待",
+      "class_name": "了解",
       "class_id": 3,
       "feature_name": "(*^ｰﾟ)vﾌ",
       "feature_vector": {
@@ -5233,8 +5168,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(´･ω･`)し",
       "feature_vector": {
         "40": 1,
@@ -5248,7 +5183,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ん(ﾉ´▽｀)ﾉ",
       "feature_vector": {
         "12435": 1,
@@ -5262,7 +5197,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "～(･∀･)ノ",
       "feature_vector": {
         "65374": 1,
@@ -5307,7 +5242,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(*'ー')ﾉ",
       "feature_vector": {
         "12541": 1,
@@ -5333,7 +5268,7 @@
     },
     {
       "class_name": "一体感",
-      "class_id": 25,
+      "class_id": 17,
       "feature_name": "ﾅｶｰﾏ(＾ω＾)人(＾ω＾)ﾅｶｰﾏ",
       "feature_vector": {
         "65413": 2,
@@ -5349,7 +5284,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(・ρ・)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -5385,7 +5320,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(´；；`)",
       "feature_vector": {
         "40": 1,
@@ -5411,7 +5346,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "～（@o@)/",
       "feature_vector": {
         "65374": 1,
@@ -5423,8 +5358,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "o(´□｀o)",
       "feature_vector": {
         "111": 2,
@@ -5448,7 +5383,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(*゜Д゜*)",
       "feature_vector": {
         "40": 1,
@@ -5460,7 +5395,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*≧▽≦)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -5473,7 +5408,7 @@
       }
     },
     {
-      "class_name": "期待",
+      "class_name": "了解",
       "class_id": 3,
       "feature_name": "ヾ(*´ω`*)ﾉ☆",
       "feature_vector": {
@@ -5490,7 +5425,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "・:*:・(ノ∀｀●)・:*:・",
       "feature_vector": {
         "12539": 4,
@@ -5532,7 +5467,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(･ω･´)ﾉ",
       "feature_vector": {
         "12541": 1,
@@ -5546,7 +5481,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(･Д・´)",
       "feature_vector": {
         "40": 1,
@@ -5581,7 +5516,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(^;ω;^)",
       "feature_vector": {
         "40": 1,
@@ -5620,8 +5555,8 @@
       }
     },
     {
-      "class_name": "おーい",
-      "class_id": 26,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "ヾ(*ﾟ∀ﾟ)ﾉ",
       "feature_vector": {
         "12542": 1,
@@ -5635,7 +5570,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "|∀`)",
       "feature_vector": {
         "124": 1,
@@ -5645,8 +5580,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "･_･",
       "feature_vector": {
         "65381": 2,
@@ -5654,8 +5589,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(・∀・≡・∀・)",
       "feature_vector": {
         "40": 1,
@@ -5692,7 +5627,7 @@
     },
     {
       "class_name": "オワタ",
-      "class_id": 31,
+      "class_id": 19,
       "feature_name": "！／(ﾟ∀ﾟ)＼ﾌ",
       "feature_vector": {
         "65281": 1,
@@ -5707,7 +5642,7 @@
     },
     {
       "class_name": "オワタ",
-      "class_id": 31,
+      "class_id": 19,
       "feature_name": "＼('o`)／",
       "feature_vector": {
         "65340": 1,
@@ -5733,7 +5668,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "(*´ω｀)っ",
       "feature_vector": {
         "40": 1,
@@ -5802,8 +5737,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(。-∀-)！",
       "feature_vector": {
         "40": 1,
@@ -5815,8 +5750,8 @@
       }
     },
     {
-      "class_name": "おーい",
-      "class_id": 26,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "ヽ( ゜∀゜)ノ",
       "feature_vector": {
         "12541": 1,
@@ -5829,8 +5764,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "（●´ー｀）＜ク",
       "feature_vector": {
         "65288": 1,
@@ -5858,7 +5793,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "!!(´Д｀)!!",
       "feature_vector": {
         "33": 4,
@@ -5870,8 +5805,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(m´・ω・｀)mw",
       "feature_vector": {
         "40": 1,
@@ -5912,7 +5847,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "Σ(・д・ﾉ)ﾉ",
       "feature_vector": {
         "931": 1,
@@ -5924,8 +5859,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(´0ﾉ｀*)",
       "feature_vector": {
         "40": 1,
@@ -5953,7 +5888,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "ﾎﾚ(ﾟДﾟ)ﾉ",
       "feature_vector": {
         "65422": 1,
@@ -5993,8 +5928,8 @@
       }
     },
     {
-      "class_name": "気付く",
-      "class_id": 18,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(^□^）！",
       "feature_vector": {
         "40": 1,
@@ -6030,7 +5965,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(●・ω・)ゞ",
       "feature_vector": {
         "40": 1,
@@ -6043,7 +5978,7 @@
     },
     {
       "class_name": "寂しい",
-      "class_id": 21,
+      "class_id": 14,
       "feature_name": "ぅ(;ω;｀)",
       "feature_vector": {
         "12357": 1,
@@ -6055,8 +5990,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "－y( ´Д｀)｡oO○",
       "feature_vector": {
         "65293": 1,
@@ -6088,7 +6023,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "ヽ(´▽｀)/",
       "feature_vector": {
         "12541": 1,
@@ -6126,7 +6061,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "（=゜∀゜）ノ",
       "feature_vector": {
         "65288": 1,
@@ -6165,8 +6100,8 @@
       }
     },
     {
-      "class_name": "困惑",
-      "class_id": 6,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "っ(´Д｀*)w",
       "feature_vector": {
         "12387": 1,
@@ -6195,7 +6130,7 @@
     },
     {
       "class_name": "オワタ",
-      "class_id": 31,
+      "class_id": 19,
       "feature_name": "＼(^o^)／!!",
       "feature_vector": {
         "65340": 1,
@@ -6209,7 +6144,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(´ﾟｪﾟ)",
       "feature_vector": {
         "40": 1,
@@ -6220,8 +6155,8 @@
       }
     },
     {
-      "class_name": "甘える",
-      "class_id": 29,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "((*´ω｀*))ｗ",
       "feature_vector": {
         "40": 2,
@@ -6246,7 +6181,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "=(ﾉ･ω･)ﾉ",
       "feature_vector": {
         "61": 1,
@@ -6259,7 +6194,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(´・ω・`)ノ",
       "feature_vector": {
         "40": 1,
@@ -6272,8 +6207,8 @@
       }
     },
     {
-      "class_name": "謝意",
-      "class_id": 30,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(^◇^)",
       "feature_vector": {
         "40": 1,
@@ -6283,8 +6218,8 @@
       }
     },
     {
-      "class_name": "謝意",
-      "class_id": 30,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "～ん(^-^)v",
       "feature_vector": {
         "65374": 1,
@@ -6313,7 +6248,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*^o^*)/♪",
       "feature_vector": {
         "40": 1,
@@ -6367,7 +6302,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "Σ(ﾉ∀｀*)",
       "feature_vector": {
         "931": 1,
@@ -6381,7 +6316,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*ﾟ◇ﾟ)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -6394,7 +6329,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "～(ノ´▽｀)ノ",
       "feature_vector": {
         "65374": 1,
@@ -6408,7 +6343,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "（ノ´ω｀）っ",
       "feature_vector": {
         "65288": 1,
@@ -6421,8 +6356,8 @@
       }
     },
     {
-      "class_name": "気付く",
-      "class_id": 18,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(°∀°；)!",
       "feature_vector": {
         "40": 1,
@@ -6434,8 +6369,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "（^-^）シ",
       "feature_vector": {
         "65288": 1,
@@ -6447,7 +6382,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(´▽`*)/",
       "feature_vector": {
         "40": 1,
@@ -6502,7 +6437,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "((;´д｀)))",
       "feature_vector": {
         "40": 2,
@@ -6523,8 +6458,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(*´_ゝ`)",
       "feature_vector": {
         "40": 1,
@@ -6537,8 +6472,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "((*´□`)っ",
       "feature_vector": {
         "40": 2,
@@ -6565,7 +6500,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(*´Д`)ﾊｧﾊｧ",
       "feature_vector": {
         "40": 1,
@@ -6605,8 +6540,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "_",
+      "class_id": 4,
       "feature_name": "( ｰ`∀ｰ´)",
       "feature_vector": {
         "40": 1,
@@ -6646,8 +6581,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(-w-)",
       "feature_vector": {
         "40": 1,
@@ -6658,7 +6593,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ・∀・)ﾉｨｮ-ｩ",
       "feature_vector": {
         "40": 1,
@@ -6702,7 +6637,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "('；ω；｀)",
       "feature_vector": {
         "40": 1,
@@ -6715,7 +6650,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*￣o￣)ゝ",
       "feature_vector": {
         "40": 1,
@@ -6728,7 +6663,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*「・ω・)「",
       "feature_vector": {
         "40": 1,
@@ -6789,8 +6724,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(*´～｀*)",
       "feature_vector": {
         "40": 1,
@@ -6803,7 +6738,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "!!!!!!(ﾟдﾟ)",
       "feature_vector": {
         "33": 6,
@@ -6814,8 +6749,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "!!ヽ(*´∀`)ノ",
       "feature_vector": {
         "33": 2,
@@ -6830,8 +6765,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(('∀')))ﾌ",
       "feature_vector": {
         "40": 2,
@@ -6843,7 +6778,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "((´д｀))",
       "feature_vector": {
         "40": 2,
@@ -6855,7 +6790,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "( ･´ω･｀)o彡°",
       "feature_vector": {
         "40": 1,
@@ -6883,7 +6818,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ;｀ω´)",
       "feature_vector": {
         "40": 1,
@@ -6910,8 +6845,8 @@
       }
     },
     {
-      "class_name": "無表情",
-      "class_id": 32,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "( ﾟ_ﾟ)",
       "feature_vector": {
         "40": 1,
@@ -6923,7 +6858,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*´∇｀*)ゞ",
       "feature_vector": {
         "40": 1,
@@ -6936,8 +6871,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(-v-)",
       "feature_vector": {
         "40": 1,
@@ -6947,8 +6882,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(*-_-*)",
       "feature_vector": {
         "40": 1,
@@ -6960,7 +6895,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(*^艸^*)",
       "feature_vector": {
         "40": 1,
@@ -6972,7 +6907,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "!!(・∀・)ノ",
       "feature_vector": {
         "33": 2,
@@ -6998,7 +6933,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(*ﾉε｀*)",
       "feature_vector": {
         "40": 1,
@@ -7010,8 +6945,8 @@
       }
     },
     {
-      "class_name": "甘える",
-      "class_id": 29,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(*'A`*)",
       "feature_vector": {
         "40": 1,
@@ -7024,7 +6959,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*｀・ω・´*)",
       "feature_vector": {
         "40": 1,
@@ -7050,8 +6985,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "((´･_･`))",
       "feature_vector": {
         "40": 2,
@@ -7064,7 +6999,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ・´ｰ・｀)",
       "feature_vector": {
         "40": 1,
@@ -7091,8 +7026,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "!!( ´Д｀)",
       "feature_vector": {
         "33": 2,
@@ -7106,7 +7041,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "!!(ﾟoﾟ;",
       "feature_vector": {
         "33": 2,
@@ -7118,7 +7053,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( *￣▽￣)σ",
       "feature_vector": {
         "40": 1,
@@ -7131,8 +7066,8 @@
       }
     },
     {
-      "class_name": "甘える",
-      "class_id": 29,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "((*'д'*)",
       "feature_vector": {
         "40": 2,
@@ -7143,7 +7078,7 @@
       }
     },
     {
-      "class_name": "期待",
+      "class_name": "了解",
       "class_id": 3,
       "feature_name": "(*´∀｀*)σ",
       "feature_vector": {
@@ -7184,7 +7119,7 @@
     },
     {
       "class_name": "感謝",
-      "class_id": 24,
+      "class_id": 16,
       "feature_name": "(*´д｀*)",
       "feature_vector": {
         "40": 1,
@@ -7225,7 +7160,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*+_+)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -7250,7 +7185,7 @@
     },
     {
       "class_name": "一体感",
-      "class_id": 25,
+      "class_id": 17,
       "feature_name": "(*・ω・)(・ω・*)＜ネー",
       "feature_vector": {
         "40": 2,
@@ -7278,7 +7213,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "((≧艸≦*))",
       "feature_vector": {
         "40": 2,
@@ -7306,8 +7241,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(-｡-)",
       "feature_vector": {
         "40": 1,
@@ -7318,7 +7253,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ^^)／",
       "feature_vector": {
         "40": 1,
@@ -7330,7 +7265,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "((ﾟДﾟ;))))",
       "feature_vector": {
         "40": 2,
@@ -7341,8 +7276,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(*-ω-))ﾝ",
       "feature_vector": {
         "40": 1,
@@ -7382,7 +7317,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(*´゜-゜｀*)",
       "feature_vector": {
         "40": 1,
@@ -7425,7 +7360,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*^▽^)ノ」",
       "feature_vector": {
         "40": 1,
@@ -7439,7 +7374,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "((´ﾟωﾟ`)))",
       "feature_vector": {
         "40": 2,
@@ -7452,7 +7387,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "( ´艸｀)！",
       "feature_vector": {
         "40": 1,
@@ -7465,8 +7400,8 @@
       }
     },
     {
-      "class_name": "別れ",
-      "class_id": 23,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "!!(ToT)",
       "feature_vector": {
         "33": 2,
@@ -7477,8 +7412,8 @@
       }
     },
     {
-      "class_name": "甘える",
-      "class_id": 29,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "((*´∀｀*)",
       "feature_vector": {
         "40": 2,
@@ -7490,8 +7425,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(*￣∇￣*)",
       "feature_vector": {
         "40": 1,
@@ -7503,7 +7438,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ﾟ∀ﾟ)ノ",
       "feature_vector": {
         "40": 1,
@@ -7516,7 +7451,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "( `･w･´)",
       "feature_vector": {
         "40": 1,
@@ -7530,7 +7465,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "!!(●´▽｀●)ノ",
       "feature_vector": {
         "33": 2,
@@ -7544,8 +7479,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(*´∀`*)!!",
       "feature_vector": {
         "40": 1,
@@ -7558,8 +7493,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "((;^ω^)",
       "feature_vector": {
         "40": 2,
@@ -7571,7 +7506,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(/Д`)",
       "feature_vector": {
         "40": 1,
@@ -7582,8 +7517,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "((°▽°))!!",
       "feature_vector": {
         "40": 2,
@@ -7595,7 +7530,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "('0')/",
       "feature_vector": {
         "40": 1,
@@ -7620,7 +7555,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*^-')b@",
       "feature_vector": {
         "40": 1,
@@ -7634,8 +7569,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "渡す",
+      "class_id": 10,
       "feature_name": "'_'っ",
       "feature_vector": {
         "39": 2,
@@ -7644,8 +7579,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "(-o-)／",
       "feature_vector": {
         "40": 1,
@@ -7657,7 +7592,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(//∇//)",
       "feature_vector": {
         "40": 1,
@@ -7680,8 +7615,8 @@
       }
     },
     {
-      "class_name": "謝意",
-      "class_id": 30,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "( ；´Д｀)ノ",
       "feature_vector": {
         "40": 1,
@@ -7696,7 +7631,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "((´ω｀*))",
       "feature_vector": {
         "40": 2,
@@ -7722,7 +7657,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(*´ｪ`*)",
       "feature_vector": {
         "40": 1,
@@ -7735,7 +7670,7 @@
     },
     {
       "class_name": null,
-      "class_id": 33,
+      "class_id": 20,
       "feature_name": "( ＞ω＜)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -7761,7 +7696,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(//Д//)",
       "feature_vector": {
         "40": 1,
@@ -7772,7 +7707,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "((((；ﾟДﾟ)))))))ｶﾞｸｶﾞｸﾌﾞﾙﾌﾞﾙ",
       "feature_vector": {
         "40": 4,
@@ -7814,7 +7749,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*^ω')b",
       "feature_vector": {
         "40": 1,
@@ -7885,7 +7820,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(*´ェ｀*)ポッ",
       "feature_vector": {
         "40": 1,
@@ -7900,7 +7835,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(*´▽｀*)!!",
       "feature_vector": {
         "40": 1,
@@ -7914,7 +7849,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ･ω･)／",
       "feature_vector": {
         "40": 1,
@@ -7927,7 +7862,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*･ω･)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -7955,7 +7890,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(*ﾟдﾟ*)T",
       "feature_vector": {
         "40": 1,
@@ -7968,7 +7903,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´ω｀)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -7997,8 +7932,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "!!(--;)",
       "feature_vector": {
         "33": 2,
@@ -8010,7 +7945,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "!!(≧∇≦)ﾉ",
       "feature_vector": {
         "33": 2,
@@ -8024,7 +7959,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(*＞ω＜)ノ☆",
       "feature_vector": {
         "40": 1,
@@ -8039,7 +7974,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*｀・∀・´*)ﾟ",
       "feature_vector": {
         "40": 1,
@@ -8081,8 +8016,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(( ・▽・)",
       "feature_vector": {
         "40": 2,
@@ -8094,7 +8029,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*ゝω・)b",
       "feature_vector": {
         "40": 1,
@@ -8107,8 +8042,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(*´□｀)",
       "feature_vector": {
         "40": 1,
@@ -8132,8 +8067,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "(-´∀`-)",
       "feature_vector": {
         "40": 1,
@@ -8146,7 +8081,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*ﾟ▽ﾟ）",
       "feature_vector": {
         "40": 1,
@@ -8182,7 +8117,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(-ω-*)!!",
       "feature_vector": {
         "40": 1,
@@ -8195,7 +8130,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "!!(=・ω・)/",
       "feature_vector": {
         "33": 2,
@@ -8209,7 +8144,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "((°Д°;))",
       "feature_vector": {
         "40": 2,
@@ -8234,7 +8169,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;ﾟ;Д;ﾟ;",
       "feature_vector": {
         "40": 1,
@@ -8245,7 +8180,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "((;´Д`))",
       "feature_vector": {
         "40": 2,
@@ -8258,7 +8193,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "( ^_^)！",
       "feature_vector": {
         "40": 1,
@@ -8271,7 +8206,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(*ﾟoﾟ*)",
       "feature_vector": {
         "40": 1,
@@ -8283,7 +8218,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "('o')/",
       "feature_vector": {
         "40": 1,
@@ -8295,7 +8230,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;◇;)",
       "feature_vector": {
         "40": 1,
@@ -8305,8 +8240,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "!!ヾ(≧∀≦)ﾉﾌ",
       "feature_vector": {
         "33": 2,
@@ -8321,8 +8256,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "((*'ω'*))))",
       "feature_vector": {
         "40": 2,
@@ -8347,7 +8282,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(';д;`)",
       "feature_vector": {
         "40": 1,
@@ -8396,7 +8331,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(//∇//)!",
       "feature_vector": {
         "40": 1,
@@ -8421,7 +8356,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "!!(´ω｀*)",
       "feature_vector": {
         "33": 2,
@@ -8461,7 +8396,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*≧-≦)b",
       "feature_vector": {
         "40": 1,
@@ -8475,7 +8410,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "( ´ﾟдﾟ)",
       "feature_vector": {
         "40": 1,
@@ -8488,7 +8423,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ；∀；)！",
       "feature_vector": {
         "40": 1,
@@ -8500,8 +8435,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "!!(*ﾉ´Д｀)ﾉ",
       "feature_vector": {
         "33": 2,
@@ -8516,7 +8451,7 @@
     },
     {
       "class_name": "感謝",
-      "class_id": 24,
+      "class_id": 16,
       "feature_name": "(//^-^//)",
       "feature_vector": {
         "40": 1,
@@ -8543,7 +8478,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´∇｀*)ノ",
       "feature_vector": {
         "40": 1,
@@ -8584,7 +8519,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "( ・∀・)っ凸",
       "feature_vector": {
         "40": 1,
@@ -8598,7 +8533,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ´ω`)っ",
       "feature_vector": {
         "40": 1,
@@ -8611,8 +8546,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "決意",
+      "class_id": 13,
       "feature_name": "(*･`ω･*)",
       "feature_vector": {
         "40": 1,
@@ -8624,8 +8559,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "_",
+      "class_id": 4,
       "feature_name": "(/__)/",
       "feature_vector": {
         "40": 1,
@@ -8650,7 +8585,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "('∀')ﾉ",
       "feature_vector": {
         "40": 1,
@@ -8662,7 +8597,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "( `･ω･´)ゝｷﾘｯ",
       "feature_vector": {
         "40": 1,
@@ -8679,8 +8614,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "('･c_･`",
       "feature_vector": {
         "40": 1,
@@ -8693,7 +8628,7 @@
     },
     {
       "class_name": ")驚き",
-      "class_id": 34,
+      "class_id": 21,
       "feature_name": "((*ﾟдﾟ*)",
       "feature_vector": {
         "40": 2,
@@ -8718,8 +8653,8 @@
       }
     },
     {
-      "class_name": "お願い",
-      "class_id": 13,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "(*´･ｪ･`*)",
       "feature_vector": {
         "40": 1,
@@ -8733,7 +8668,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "( ´艸｀)ムププ",
       "feature_vector": {
         "40": 1,
@@ -8748,7 +8683,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "( *｀・ω´)",
       "feature_vector": {
         "40": 1,
@@ -8763,7 +8698,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "((^艸^)))",
       "feature_vector": {
         "40": 2,
@@ -8788,7 +8723,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(*≧艸≦)",
       "feature_vector": {
         "40": 1,
@@ -8852,7 +8787,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "((；w；))",
       "feature_vector": {
         "40": 2,
@@ -8863,7 +8798,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;∇;)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -8889,7 +8824,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(/∇＼)",
       "feature_vector": {
         "40": 1,
@@ -8901,7 +8836,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "((；´;∀;`；))",
       "feature_vector": {
         "40": 2,
@@ -8927,7 +8862,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´▽｀)/イヤ",
       "feature_vector": {
         "40": 1,
@@ -8943,7 +8878,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(*´д`*)ハァハァ",
       "feature_vector": {
         "40": 1,
@@ -8985,7 +8920,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(/o＼)",
       "feature_vector": {
         "40": 1,
@@ -9011,7 +8946,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ^ω^)二⊃",
       "feature_vector": {
         "40": 1,
@@ -9025,7 +8960,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*ﾟωﾟ*)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -9038,7 +8973,7 @@
     },
     {
       "class_name": "渡す",
-      "class_id": 14,
+      "class_id": 10,
       "feature_name": "((つ^_^)つ",
       "feature_vector": {
         "40": 2,
@@ -9089,7 +9024,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "((；ﾟДﾟ))))",
       "feature_vector": {
         "40": 2,
@@ -9101,7 +9036,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "('ω`)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -9127,7 +9062,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*^－^)ノ",
       "feature_vector": {
         "40": 1,
@@ -9155,7 +9090,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;Д;)!!!!",
       "feature_vector": {
         "40": 1,
@@ -9166,8 +9101,8 @@
       }
     },
     {
-      "class_name": "困惑",
-      "class_id": 6,
+      "class_name": "悲しい",
+      "class_id": 2,
       "feature_name": "((´д`)))",
       "feature_vector": {
         "40": 2,
@@ -9192,8 +9127,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "(( ・o・)",
       "feature_vector": {
         "40": 2,
@@ -9217,7 +9152,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "('A｀)",
       "feature_vector": {
         "40": 1,
@@ -9241,7 +9176,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(*´艸`*)ﾌ",
       "feature_vector": {
         "40": 1,
@@ -9255,7 +9190,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ´；ω；｀)",
       "feature_vector": {
         "40": 1,
@@ -9269,7 +9204,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "( ･`ω･´)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -9325,7 +9260,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "( ´ﾟдﾟ｀)b",
       "feature_vector": {
         "40": 1,
@@ -9340,7 +9275,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "((ﾟДﾟ)))",
       "feature_vector": {
         "40": 2,
@@ -9403,7 +9338,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(*｀ω´)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -9417,7 +9352,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*＾＾)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -9469,7 +9404,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ｀・∀・´)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -9484,7 +9419,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "!!(m'□'m)",
       "feature_vector": {
         "33": 2,
@@ -9497,7 +9432,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(;°д°)",
       "feature_vector": {
         "40": 1,
@@ -9536,7 +9471,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(*＾▽＾*)!!",
       "feature_vector": {
         "40": 1,
@@ -9549,7 +9484,7 @@
     },
     {
       "class_name": "興奮",
-      "class_id": 19,
+      "class_id": 12,
       "feature_name": "(*´Д`)ハァハァ",
       "feature_vector": {
         "40": 1,
@@ -9616,7 +9551,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( ・_・)ノ",
       "feature_vector": {
         "40": 1,
@@ -9629,7 +9564,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´▽｀*)ノ",
       "feature_vector": {
         "40": 1,
@@ -9656,7 +9591,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*`・ω・´*)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -9683,7 +9618,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "(;`・ω・´)",
       "feature_vector": {
         "40": 1,
@@ -9709,7 +9644,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "!!(;^_^",
       "feature_vector": {
         "33": 2,
@@ -9721,7 +9656,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "( *・ω・)ノ",
       "feature_vector": {
         "40": 1,
@@ -9748,7 +9683,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "((^-^)))／",
       "feature_vector": {
         "40": 2,
@@ -9772,7 +9707,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´▽｀*)ノ☆",
       "feature_vector": {
         "40": 1,
@@ -9797,7 +9732,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*^^)ﾉ",
       "feature_vector": {
         "40": 1,
@@ -9809,7 +9744,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ゜＾ω＾゜)゜。",
       "feature_vector": {
         "40": 1,
@@ -9823,7 +9758,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;∀;)b！",
       "feature_vector": {
         "40": 1,
@@ -9864,7 +9799,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;_;)",
       "feature_vector": {
         "40": 1,
@@ -9899,8 +9834,8 @@
       }
     },
     {
-      "class_name": "おもしろ",
-      "class_id": 22,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "((；ﾟДﾟ))ｶﾞ",
       "feature_vector": {
         "40": 2,
@@ -9914,7 +9849,7 @@
     },
     {
       "class_name": "決意",
-      "class_id": 20,
+      "class_id": 13,
       "feature_name": "( `・ω・´",
       "feature_vector": {
         "40": 1,
@@ -9927,7 +9862,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(*ﾟoﾟ)",
       "feature_vector": {
         "40": 1,
@@ -9961,8 +9896,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "嬉しい",
+      "class_id": 7,
       "feature_name": "(*^へ^*)♪",
       "feature_vector": {
         "40": 1,
@@ -9975,7 +9910,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´∀｀)ﾉゞ",
       "feature_vector": {
         "40": 1,
@@ -9990,7 +9925,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ´∀`)/",
       "feature_vector": {
         "40": 1,
@@ -10029,7 +9964,7 @@
     },
     {
       "class_name": "感謝",
-      "class_id": 24,
+      "class_id": 16,
       "feature_name": "(*＾ω＾*)",
       "feature_vector": {
         "40": 1,
@@ -10067,7 +10002,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "( *´艸｀)( ´艸｀*)",
       "feature_vector": {
         "40": 2,
@@ -10080,8 +10015,8 @@
       }
     },
     {
-      "class_name": "嬉しい",
-      "class_id": 7,
+      "class_name": "了解",
+      "class_id": 3,
       "feature_name": "!!＼(o￣∇￣o)/",
       "feature_vector": {
         "33": 2,
@@ -10095,8 +10030,8 @@
       }
     },
     {
-      "class_name": "期待",
-      "class_id": 3,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "((*ﾟ∀ﾟ*))",
       "feature_vector": {
         "40": 2,
@@ -10108,7 +10043,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ´ω｀)φ",
       "feature_vector": {
         "40": 1,
@@ -10133,7 +10068,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ´Д`)",
       "feature_vector": {
         "40": 1,
@@ -10146,7 +10081,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(( ´艸｀)))",
       "feature_vector": {
         "40": 2,
@@ -10159,7 +10094,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;_＼)",
       "feature_vector": {
         "40": 1,
@@ -10198,7 +10133,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "(;へ;)",
       "feature_vector": {
         "40": 1,
@@ -10247,7 +10182,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ^;o;^",
       "feature_vector": {
         "40": 1,
@@ -10296,7 +10231,7 @@
     },
     {
       "class_name": "眠る",
-      "class_id": 17,
+      "class_id": 11,
       "feature_name": "(*˘◡˘*)",
       "feature_vector": {
         "40": 1,
@@ -10308,7 +10243,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´∇`)ノ",
       "feature_vector": {
         "40": 1,
@@ -10322,7 +10257,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(*ﾉдﾉ)",
       "feature_vector": {
         "40": 1,
@@ -10334,7 +10269,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "( ｀；ω；´)",
       "feature_vector": {
         "40": 1,
@@ -10347,8 +10282,8 @@
       }
     },
     {
-      "class_name": "おもしろ",
-      "class_id": 22,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "((;^;-;^;)))ｗ",
       "feature_vector": {
         "40": 2,
@@ -10361,7 +10296,7 @@
     },
     {
       "class_name": "恥ずかしい",
-      "class_id": 12,
+      "class_id": 9,
       "feature_name": "(//Α//;",
       "feature_vector": {
         "40": 1,
@@ -10386,7 +10321,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*´ω`)b",
       "feature_vector": {
         "40": 1,
@@ -10400,7 +10335,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*≧ω≦*)b",
       "feature_vector": {
         "40": 1,
@@ -10414,7 +10349,7 @@
     },
     {
       "class_name": "了解",
-      "class_id": 11,
+      "class_id": 3,
       "feature_name": "(*^^)/",
       "feature_vector": {
         "40": 1,
@@ -10425,8 +10360,8 @@
       }
     },
     {
-      "class_name": "無表情",
-      "class_id": 32,
+      "class_name": "不満",
+      "class_id": 0,
       "feature_name": "('з')",
       "feature_vector": {
         "40": 1,
@@ -10436,8 +10371,8 @@
       }
     },
     {
-      "class_name": "ひらめき",
-      "class_id": 9,
+      "class_name": "驚き",
+      "class_id": 8,
       "feature_name": "(-^□^-)！",
       "feature_vector": {
         "40": 1,
@@ -10450,7 +10385,7 @@
     },
     {
       "class_name": "驚き",
-      "class_id": 10,
+      "class_id": 8,
       "feature_name": "(;°д°)！",
       "feature_vector": {
         "40": 1,
@@ -10463,7 +10398,7 @@
     },
     {
       "class_name": "悲しい",
-      "class_id": 8,
+      "class_id": 2,
       "feature_name": "('A`*)",
       "feature_vector": {
         "40": 1,
@@ -10475,8 +10410,8 @@
       }
     },
     {
-      "class_name": "無関心",
-      "class_id": 16,
+      "class_name": "困惑",
+      "class_id": 6,
       "feature_name": "((^_^;)し",
       "feature_vector": {
         "40": 2,
