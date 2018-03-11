@@ -40,7 +40,7 @@ def recall(metrics)
 end
 
 def f(v)
-  return v if ((v.is_a? String) || (v.is_a? Integer))
+  return v if (v.nil? || (v.is_a? String) || (v.is_a? Integer))
   sprintf("%.2f", v)
 end
 
