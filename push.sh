@@ -7,5 +7,5 @@ docker tag classifier:$tag $URL:$tag
 docker tag classifier:$tag $URL:latest
 docker push $URL:latest
 docker push $URL:$tag
-git tag build/$tag
-git push origin build/$tag:build/$tag
+git --git-dir=.git tag build/$tag
+git --git-dir=.git push origin build/$tag:build/$tag
