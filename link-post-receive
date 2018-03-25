@@ -1,2 +1,2 @@
 #!/bin/bash -xe
-ln -sfn post-receive .git/hooks/post-receive
+ln -sfn $(pwd)/post-receive .git/hooks/post-receive
