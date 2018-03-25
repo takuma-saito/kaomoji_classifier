@@ -1,0 +1,2 @@
+#!/bin/bash -xe
+ln -sfn post-receive .git/hooks/post-receive
