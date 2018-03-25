@@ -1,0 +1,10 @@
+#!/bin/bash -xe
+DIR=~/work/kaomoji_classification
+while read oldrev newrev ref
+do
+    branch=$(echo $ref | cut -d'/' -f3)
+    cd $DIR
+    git --git-dir=.git push origin $branch:$branch
+    git --git-dir=.git log --format=%B -n 1 $newrev | grep BUILD
+    [[ 0 == $? ]] && echo 'ok' && ./push.sh
+done
