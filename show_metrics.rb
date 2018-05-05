@@ -32,11 +32,13 @@ def error(metrics)
 end
 
 def precision(metrics)
-  ((metrics[:tp]).to_f / (metrics[:tp] + metrics[:fp]).to_f ) * 100
+  d = metrics[:tp] + metrics[:fp]
+  d == 0 ? 1 : ((metrics[:tp]).to_f / d.to_f ) * 100
 end
 
 def recall(metrics)
-  ((metrics[:tp]).to_f / (metrics[:tp] + metrics[:fn]).to_f ) * 100
+  d = metrics[:tp] + metrics[:fn]
+  d == 0 ? 1 : ((metrics[:tp]).to_f / d.to_f ) * 100
 end
 
 def f(v)
@@ -47,12 +49,13 @@ end
 def calc_statistics(m)  
   precision = precision(m)
   recall = recall(m)
+  p m if precision == 0.0
   {
     success: success(m),
     error: error(m),
     precision: precision,
     recall: recall,
-    f_value: (2 * (precision * recall)) / (precision + recall)
+    f_value: ((precision + recall) == 0) ? 1 : (2 * (precision * recall)) / (precision + recall)
   }
 end
 
@@ -98,7 +101,9 @@ macro_recall =
   d == 0 ? 1 : (metrics[:tp] / d.to_f)
 }.reduce(&:+) / metrices.size.to_f
 macro_fscore = (2 * (macro_precision * macro_recall)) / (macro_precision + macro_recall)
-show_metrics(m)
-puts "macro precision,#{f(macro_precision * 100)}"
-puts "macro recall,#{f(macro_recall * 100)}"
-puts "macro fscore,#{f(macro_fscore * 100)}"
+puts "マクロ適合率,#{f(macro_precision * 100)}"
+puts "マクロ再現率,#{f(macro_recall * 100)}"
+puts "マクロF-値,#{f(macro_fscore * 100)}"
+puts "マイクロ適合率,#{f(m[:precision])}"
+puts "マイクロ再現率,#{f(m[:recall])}"
+puts "マイクロF-値,#{f(m[:f_value])}"
