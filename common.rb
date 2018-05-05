@@ -37,13 +37,15 @@ def predict(weights, vector)
     .reverse
 end
 
-def with_predictions(dir, &block)
+def with_predictions(dir, separator = nil, reader = $stdin, &block)
   weights = read_json(dir + '/weights.json')
   ans = read_json(dir + '/training_data.json')['answers']
-  while (text = $stdin.gets)&.chomp!
-    predictions = predict(weights, to_vector(text)).map do |x|
-      [x, ans[x[0].to_s]]
+  answer_category = nil
+  while (face = reader.gets)&.chomp!
+    face, answer_category = face.split(separator) if separator
+    predictions = predict(weights, to_vector(face)).map do |x|
+      ans[x[0].to_s].merge!("prob" => x[1])
     end
-    block.(text, predictions)
+    block.(face, predictions, answer_category)
   end
 end
