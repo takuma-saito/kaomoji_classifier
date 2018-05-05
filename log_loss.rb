@@ -9,8 +9,8 @@ with_predictions(dir, '$', File.open(dir + '/' + filename)) do |text, prediction
     prediction['name'] == answer_category
   end&.first || next
   log_prob = -Math.log(prediction['prob'])
-  if log_prob > 10
-    pp Math.log(prediction['prob']), text, answer_category, predictions.take(5)
+  if log_prob > 0
+    pp log_prob, text, answer_category, predictions.take(5)
     puts ''
   end
   sum += log_prob
