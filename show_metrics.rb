@@ -56,6 +56,10 @@ def calc_statistics(m)
   }
 end
 
+def show_metrics(metrics)  
+  puts $headings.map {|head| f(metrics[head])}.join(",")
+end
+
 items = []
 while (line = $stdin.gets)&.chomp!
   d = line.split("\t").map {|item| item.split("$") }
@@ -73,16 +77,28 @@ metrices =
   m = get_metrics(items, category)
   m.merge(calc_statistics(m)).merge(category: category)
 }
-count = metrices.count
 m =  [:tp, :tn, :fp, :fn].map do |field|
-  [field, metrices.map {|metrics| metrics[field]}.reduce(&:+).to_f / count.to_f]
+  [field, metrices.map {|metrics| metrics[field]}.reduce(&:+).to_f]
 end.to_h
-m.merge!(calc_statistics(m)).merge!(category: 'TOTAL')
-metrices << m
+m.merge!(calc_statistics(m)).merge!(category: 'MICRO TOTAL')
 
-headings = [:category, :tp, :tn, :fp, :fn,
+$headings = [:category, :tp, :tn, :fp, :fn,
             :success, :error, :precision, :recall, :f_value]
-puts headings.join(",")
-metrices.each do |metrics|
-  puts headings.map {|head| f(metrics[head])}.join(",")
-end
+puts $headings.join(",")
+metrices.each { |metrics| show_metrics(metrics) }
+
+macro_precision =
+  metrices.map {|metrics|
+  d = metrics[:tp] + metrics[:fp]
+  d == 0 ? 1 : (metrics[:tp] / d.to_f)
+}.reduce(&:+) / metrices.size.to_f
+macro_recall =
+  metrices.map {|metrics| 
+  d = metrics[:tp] + metrics[:fn]
+  d == 0 ? 1 : (metrics[:tp] / d.to_f)
+}.reduce(&:+) / metrices.size.to_f
+macro_fscore = (2 * (macro_precision * macro_recall)) / (macro_precision + macro_recall)
+show_metrics(m)
+puts "macro precision,#{f(macro_precision * 100)}"
+puts "macro recall,#{f(macro_recall * 100)}"
+puts "macro fscore,#{f(macro_fscore * 100)}"
