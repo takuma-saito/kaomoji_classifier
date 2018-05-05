@@ -44,6 +44,18 @@ def f(v)
   sprintf("%.2f", v)
 end
 
+def calc_statistics(m)  
+  precision = precision(m)
+  recall = recall(m)
+  {
+    success: success(m),
+    error: error(m),
+    precision: precision,
+    recall: recall,
+    f_value: (2 * (precision * recall)) / (precision + recall)
+  }
+end
+
 items = []
 while (line = $stdin.gets)&.chomp!
   d = line.split("\t").map {|item| item.split("$") }
@@ -59,27 +71,18 @@ metrices =
     .uniq
     .map { |category|
   m = get_metrics(items, category)
-  precision = precision(m)
-  recall = recall(m)
-  m.merge({
-            category: category,
-            success: success(m),
-            error: error(m),
-            precision: precision,
-            recall: recall,
-            f_value: (2 * (precision * recall)) / (precision + recall)
-          })
+  m.merge(calc_statistics(m)).merge(category: category)
 }
+count = metrices.count
+m =  [:tp, :tn, :fp, :fn].map do |field|
+  [field, metrices.map {|metrics| metrics[field]}.reduce(&:+).to_f / count.to_f]
+end.to_h
+m.merge!(calc_statistics(m)).merge!(category: 'TOTAL')
+metrices << m
 
 headings = [:category, :tp, :tn, :fp, :fn,
             :success, :error, :precision, :recall, :f_value]
-
 puts headings.join(",")
 metrices.each do |metrics|
   puts headings.map {|head| f(metrics[head])}.join(",")
 end
-count = metrices.count
-puts "total," + headings.reject {|i| i == :category}
-  .map {|head|
-  f(metrices.map {|metrics| metrics[head]}.reduce(&:+).to_f / count.to_f)
-}.join(",")
