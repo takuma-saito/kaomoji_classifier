@@ -4,7 +4,7 @@ NUM=${2:-5}
 DIR=${3:-training_data/data_set_0}
 cat $DIR/training_data.json | jq -r '.answers["'$INDEX'"] | .name'
 cat $DIR/weights.json |
-    jq -r ".[$INDEX] | to_entries | sort_by(.value) | .[-$[$NUM + 1]:-1] + .[0:$NUM] | [.[] | [.key, .value]] | .[] | @csv" |
+    jq -r ".[$INDEX] | to_entries | sort_by(.value) | (.[-$[$NUM + 1]:-1] | reverse) + .[0:$NUM] | [.[] | [.key, .value]] | .[] | @csv" |
     while read line
     do
         printf $line, ","; {
