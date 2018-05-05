@@ -20,8 +20,9 @@ def predict(weights, vector)
     .reverse
 end
 
-weights = read_json ARGV[0]
-ans = read_json(ARGV[1])['answers']
+dir = ARGV[0]
+weights = read_json(dir + '/weights.json')
+ans = read_json(dir + '/training_data.json')['answers']
 
 while (text = $stdin.gets)&.chomp!
   prediction = predict(weights, to_vector(text)).map do |x|
