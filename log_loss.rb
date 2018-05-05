@@ -8,9 +8,12 @@ with_predictions(dir, '$', File.open(dir + '/' + filename)) do |text, prediction
   prediction = predictions.select do |prediction|
     prediction['name'] == answer_category
   end&.first || next
-  pp Math.log(prediction['prob']), text, answer_category, predictions.take(5)
-  puts ''
-  sum += -Math.log(prediction['prob'])
+  log_prob = -Math.log(prediction['prob'])
+  if log_prob > 0
+    pp log_prob, text, answer_category, predictions.take(5)
+    puts ''
+  end
+  sum += log_prob
   n += 1
 end
 p sum / n
