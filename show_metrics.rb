@@ -49,7 +49,6 @@ end
 def calc_statistics(m)  
   precision = precision(m)
   recall = recall(m)
-  p m if precision == 0.0
   {
     success: success(m),
     error: error(m),
