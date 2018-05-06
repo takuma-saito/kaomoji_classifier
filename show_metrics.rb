@@ -32,11 +32,13 @@ def error(metrics)
 end
 
 def precision(metrics)
-  ((metrics[:tp]).to_f / (metrics[:tp] + metrics[:fp]).to_f ) * 100
+  d = metrics[:tp] + metrics[:fp]
+  d == 0 ? 1 : ((metrics[:tp]).to_f / d.to_f ) * 100
 end
 
 def recall(metrics)
-  ((metrics[:tp]).to_f / (metrics[:tp] + metrics[:fn]).to_f ) * 100
+  d = metrics[:tp] + metrics[:fn]
+  d == 0 ? 1 : ((metrics[:tp]).to_f / d.to_f ) * 100
 end
 
 def f(v)
@@ -52,8 +54,12 @@ def calc_statistics(m)
     error: error(m),
     precision: precision,
     recall: recall,
-    f_value: (2 * (precision * recall)) / (precision + recall)
+    f_value: ((precision + recall) == 0) ? 1 : (2 * (precision * recall)) / (precision + recall)
   }
+end
+
+def show_metrics(metrics)  
+  puts $headings.map {|head| f(metrics[head])}.join(",")
 end
 
 items = []
@@ -73,16 +79,27 @@ metrices =
   m = get_metrics(items, category)
   m.merge(calc_statistics(m)).merge(category: category)
 }
-count = metrices.count
 m =  [:tp, :tn, :fp, :fn].map do |field|
-  [field, metrices.map {|metrics| metrics[field]}.reduce(&:+).to_f / count.to_f]
+  [field, metrices.map {|metrics| metrics[field]}.reduce(&:+).to_f]
 end.to_h
-m.merge!(calc_statistics(m)).merge!(category: 'TOTAL')
-metrices << m
+m.merge!(calc_statistics(m)).merge!(category: 'MICRO TOTAL')
 
-headings = [:category, :tp, :tn, :fp, :fn,
+$headings = [:category, :tp, :tn, :fp, :fn,
             :success, :error, :precision, :recall, :f_value]
-puts headings.join(",")
-metrices.each do |metrics|
-  puts headings.map {|head| f(metrics[head])}.join(",")
-end
+puts $headings.join(",")
+metrices.each { |metrics| show_metrics(metrics) }
+
+macro_precision =
+  metrices.map {|metrics|
+  d = metrics[:tp] + metrics[:fp]
+  d == 0 ? 1 : (metrics[:tp] / d.to_f)
+}.reduce(&:+) / metrices.size.to_f
+macro_recall =
+  metrices.map {|metrics| 
+  d = metrics[:tp] + metrics[:fn]
+  d == 0 ? 1 : (metrics[:tp] / d.to_f)
+}.reduce(&:+) / metrices.size.to_f
+macro_fscore = (2 * (macro_precision * macro_recall)) / (macro_precision + macro_recall)
+puts "適合率,#{f(macro_precision * 100)},#{f(m[:precision])}"
+puts "再現率,#{f(macro_recall * 100)},#{f(m[:recall])}"
+puts "F-値,#{f(macro_fscore * 100)},#{f(m[:f_value])}"

@@ -9,9 +9,10 @@ with_predictions(dir, '$', File.open(dir + '/' + filename)) do |text, prediction
     prediction['name'] == answer_category
   end&.first || next
   log_prob = -Math.log(prediction['prob'])
-  if log_prob > 0
-    pp log_prob, text, answer_category, predictions.take(5)
-    puts ''
+  if log_prob > 5
+    puts "#{sprintf("%.3f", log_prob)},#{text},#{answer_category}," + predictions.take(5).map {|prediction|
+      "#{prediction['name']}:#{sprintf("%.3f", prediction['prob'])}"
+    }.join(",")
   end
   sum += log_prob
   n += 1
