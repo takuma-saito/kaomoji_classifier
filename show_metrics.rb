@@ -100,9 +100,6 @@ macro_recall =
   d == 0 ? 1 : (metrics[:tp] / d.to_f)
 }.reduce(&:+) / metrices.size.to_f
 macro_fscore = (2 * (macro_precision * macro_recall)) / (macro_precision + macro_recall)
-puts "マクロ適合率,#{f(macro_precision * 100)}"
-puts "マクロ再現率,#{f(macro_recall * 100)}"
-puts "マクロF-値,#{f(macro_fscore * 100)}"
-puts "マイクロ適合率,#{f(m[:precision])}"
-puts "マイクロ再現率,#{f(m[:recall])}"
-puts "マイクロF-値,#{f(m[:f_value])}"
+puts "適合率,#{f(macro_precision * 100)},#{f(m[:precision])}"
+puts "再現率,#{f(macro_recall * 100)},#{f(m[:recall])}"
+puts "F-値,#{f(macro_fscore * 100)},#{f(m[:f_value])}"
